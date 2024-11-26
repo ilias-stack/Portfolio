@@ -1,0 +1,156 @@
+{
+  "Header.Item1": "À propos de moi",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Mon CV",
+  "Header.cvName": "resume_fr.pdf",
+
+  "Banner.Pretitle": "Bonjour tous! Je suis",
+  "Banner.Description": "Je suis un <span class='underline'>étudiant en ingénierie</span> du Maroc, avec une solide base en développement de systèmes et autres solutions technologiques. Je m'efforce d'écrire du code propre, réutilisable et évolutif en <span class='underline'>Java</span>, <span class='underline'>Python</span> et <span class='underline'>JavaScript</span>, tout en explorant la science des données et le machine learning à l'aide d'outils comme <span class='underline'>TensorFlow</span>, <span class='underline'>Pandas</span> et <span class='underline'>Scikit-learn</span>.",
+  "Banner.ActionBtn": "Dites Bonjour",
+
+  "AboutMe.Title": "À propos de moi",
+  "AboutMe.Paragraphs": [
+    "En tant qu'étudiant, j'apprends activement et je travaille sur des projets qui couvrent le développement web et mobile, ainsi que l'analyse de données et le machine learning. Je suis motivé à utiliser mes compétences pour créer des solutions qui résolvent des problèmes concrets.",
+    "J'ai travaillé sur divers projets personnels et académiques, en améliorant des systèmes, en optimisant des sites web, et en expérimentant des modèles prédictifs et des visualisations de données.",
+    "J'aime programmer pendant mon temps libre, explorer de nouvelles technologies et perfectionner mes compétences grâce à des expériences pratiques.",
+    "Voici quelques-unes des technologies avec lesquelles j'ai travaillé (liste non exhaustive) :"
+  ],
+
+  "Experience.Title": "Expérience",
+  "Experience.Jobs": [
+    {
+      "Tab": "INWI",
+      "Title": "Stagiaire Data Scientist et Développeur Logiciel",
+      "Date": "1er Juil 2024 - 1er Sep 2024",
+      "Description": [
+        "Conçu et développé des tableaux de bord interactifs avec Power BI, offrant des visualisations de données claires pour améliorer les processus de prise de décision.",
+        "Créé des modèles avancés de prévision de revenus en utilisant le machine learning et le deep learning, augmentant considérablement la précision des prédictions financières.",
+        "Développé une application intranet pour faciliter la gestion des documents entre différents départements, améliorant l'accès et la collaboration interservices."
+      ]
+    },
+    {
+      "Tab": "3DSF",
+      "Title": "Stagiaire Développeur d'Applications Mobiles",
+      "Date": "1er Juil 2023 - 1er Sep 2023",
+      "Description": [
+        "Conçu et réalisé des interfaces mobiles intuitives pour améliorer l'expérience utilisateur.",
+        "Développé des services backend fiables et des bases de données relationnelles pour garantir le bon fonctionnement de l'application et l'intégrité des données."
+      ]
+    },
+    {
+      "Tab": "MBI",
+      "Title": "Stagiaire Data Scientist et Développeur Logiciel",
+      "Date": "11 Avr 2022 - 1er Juin 2022",
+      "Description": [
+        "Créé une application de bureau pour la gestion des abonnements clients.",
+        "Développé un système de reconnaissance faciale permettant d'authentifier les clients via leur carte nationale et photo, renforçant la sécurité et les processus de vérification."
+      ]
+    },
+    {
+      "Tab": "VOIEINFO",
+      "Title": "Stagiaire Développeur Web",
+      "Date": "1er Juil 2021 - 1er Août 2021",
+      "Description": [
+        "Développé un site web dynamique pour la gestion des ventes."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mes Projets",
+  "FeatureProjects.Label": "Projet Mis en Avant",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Gestionnaire de Documents Intranet",
+      "Description": "Une plateforme destinée à faciliter le partage, le suivi et la gestion des documents au sein d'une organisation. Les utilisateurs peuvent télécharger, partager, et les administrateurs peuvent suivre l'activité des documents entre départements. Intégré avec <span class='underline'>Chart.js</span> pour des graphiques en temps réel et des visualisations fournissant des insights sur les interactions, les vues et les tendances d'utilisation des documents.",
+      "imgs": [
+        "assets/images/intranet/intra1.png",
+        "assets/images/intranet/intra2.png",
+        "assets/images/intranet/intra3.png",
+        "assets/images/intranet/intra4.png",
+        "assets/images/intranet/intra5.png"
+      ],
+      "Technologies": [
+        "Spring",
+        "Angular",
+        "MySQL",
+        "ChartJS",
+        "WebSocket",
+        "Docker"
+      ]
+    },
+    {
+      "Title": "Analyse et Prévisions des Revenus",
+      "Description": "Développé des modèles de machine learning en utilisant <span class='underline'>ARIMA</span>, <span class='underline'>XGBoost</span> et <span class='underline'>LSTM</span> pour prédire les tendances des revenus. Intégré avec <span class='underline'>TensorFlow</span> et <span class='underline'>Scikit-learn</span> pour l'entraînement des modèles, avec une notification par email automatisée.",
+      "imgs": [
+        "assets/images/forecast/fc1.png",
+        "assets/images/forecast/fc2.png",
+        "assets/images/forecast/fc3.png",
+        "assets/images/forecast/fc4.png"
+      ],
+      "Technologies": ["PowerBi", "Python", "Tensorflow", "sklearn", "smtplib "]
+    },
+    {
+      "Title": "Clone d'Instagram",
+      "Description": "Créé une application mobile en utilisant <span class='underline'>Flutter</span> avec une interface intuitive inspirée d'Instagram. Développé un backend complet avec <span class='underline'>Express</span> et <span class='underline'>MySQL</span> pour gérer les fonctionnalités principales telles que l'authentification utilisateur, le téléchargement d'images, et les interactions sociales.",
+      "imgs": [
+        "assets/images/insta-clone/insta1.jpg",
+        "assets/images/insta-clone/insta2.png",
+        "assets/images/insta-clone/insta3.png",
+        "assets/images/insta-clone/insta4.png",
+        "assets/images/insta-clone/insta5.png"
+      ],
+      "Technologies": ["Flutter", "ExpressJS", "MySQL"]
+    },
+    {
+      "Title": "Quelques Jeux que J'ai Créés",
+      "Description": "Un aperçu de ma petite aventure dans le développement de jeux. Ces captures montrent la passion et le plaisir que j'ai mis dans ces projets. En plus, j'ai créé tous les assets 3D de ces jeux 😀.",
+      "imgs": [
+        "assets/images/games/shooter.png",
+        "assets/images/games/shapes.png",
+        "assets/images/games/chess.png"
+      ],
+      "Technologies": ["C#", "Unity", "Blender"]
+    }
+  ],
+
+  "OtherProjects.Title": "Autres Projets",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Digital HR",
+      "Description": "Développé une plateforme RH conviviale, avec des fonctionnalités permettant de classer les CV en fonction des compétences recherchées. Intégré RAG pour les LLMs pour extraire des informations pertinentes des documents téléchargés.",
+      "ghLink": "https://github.com/ilias-stack/Digital_HR",
+      "Technologies": ["Angular", "Tailwind", "Spring", "RAG", "Flask"]
+    },
+    {
+      "Title": "ZFT-COMPRESSER",
+      "Description": "Une application console en Java pour compresser et décompresser des dossiers au format personnalisé .zft. Elle inclut également une option de protection par mot de passe pour les fichiers compressés.",
+      "ghLink": "https://github.com/ilias-stack/ZFT-COMPRESSER",
+      "Technologies": ["Java"]
+    },
+    {
+      "Title": "N7FLIX",
+      "Description": "Une application de bureau pour recommander des films, basée sur un algorithme simple de filtrage basé sur le contenu, qui propose des films en fonction des préférences des utilisateurs.",
+      "ghLink": "https://github.com/ilias-stack/N7FLIX",
+      "Technologies": ["Java", "JavaFX"]
+    },
+    {
+      "Title": "Madinaty-App",
+      "Description": "Une application mobile conviviale permettant de signaler les défaillances dans les infrastructures et de rapporter les problèmes de manière digitalisée et gérable.",
+      "ghLink": "https://github.com/ilias-stack/Madinaty-App",
+      "Technologies": ["Flutter", "Firebase"]
+    },
+    {
+      "Title": "Chess Game",
+      "Description": "Un jeu d'échecs à deux joueurs avec des textures réalistes de bois et des effets sonores pour une expérience immersive.",
+      "ghLink": "https://github.com/ilias-stack/Chess-Assets",
+      "Technologies": ["C#", "Unity", "Blender"]
+    }
+  ],
+
+  "Contact.Pretitle": "Et... Maintenant ?",
+  "Contact.Title": "Dites Bonjour !",
+  "Contact.Content": "Je serais ravi d'échanger avec vous si vous souhaitez discuter de nouvelles opportunités. Écrivez-moi et je vous répondrai dès que je verrai votre message.",
+  "Contact.Btn": "Contactez-moi"
+}
